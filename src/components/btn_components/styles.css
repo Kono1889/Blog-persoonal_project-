@@ -1,0 +1,62 @@
+.btn-signup,
+.btn-subscribe,.book-btn {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.7rem;
+    padding-right: 1.35rem;
+    padding-left: 1.35rem;
+    background-color: #ffff;
+    flex-direction: flex-end;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    /* border: none; */
+}
+
+.btn-login {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.7rem;
+    padding-right: 1.35rem;
+    padding-left: 1.35rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.btn-subscribe:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 1s;
+}
+
+
+.btn-signup:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 1s;
+}
+
+
+.btn-login:hover {
+    font-weight: 600;
+
+}
+
+.book-btn-icon{
+    margin-left: 0.5rem;
+}
+
+.book-btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+}

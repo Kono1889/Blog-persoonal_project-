@@ -1,0 +1,420 @@
+body {
+    font-family: sans-serif;
+    margin: 1rem;
+}
+
+.signUp-btns {
+    margin-top: 0.9rem;
+}
+
+.landing-page {
+    border: 2px solid #ffffff;
+    border-radius: 0.6rem;
+    background-image: url('/public/woman_on_beach.jpg');
+    background-size: 100% 120%;
+    color: #ffffff;
+}
+
+.searchBar {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0.8px solid rgba(255, 255, 255, 0.6);
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    padding: 1.2rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    width: 23rem;
+    color: #ffffff;
+}
+
+.searchBar::placeholder {
+    color: #ffffff;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-name {
+    margin: 0px;
+}
+
+.listItems {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btn-header {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.lang {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon {
+    padding-right: 0.2rem;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+
+
+/* Subject */
+.subject {
+    margin-top: 35rem;
+    margin-left: 3.5rem;
+    display: grid;
+    /* column-gap: 20rem; */
+    grid-template-columns: auto auto auto;
+
+}
+
+.subject-right {
+    text-align: right;
+    width: 36rem;
+}
+
+.subject-left {
+    width: 50rem;
+}
+
+.destination {
+    background-color: rgba(181, 192, 208, 0.3);
+    border-radius: 1rem;
+    width: 7rem;
+    text-align: center;
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.content {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* .sub-content {} */
+.profile {
+    position: relative;
+}
+
+.profile-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.destination:hover {
+    background-color: rgba(94, 102, 114, 0.3);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    font-weight: 600;
+    padding: 0.7rem;
+    padding-right: 1.35rem;
+    padding-left: 1.35rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.lang:hover {
+    font-weight: 600;
+    padding: 0.7rem;
+    padding-right: 1.35rem;
+    padding-left: 1.35rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Blog Styling*/
+
+/* .blog{
+    padding: ;
+
+} */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.blog-subcontent {
+    color: rgb(97, 95, 95);
+    font-size: 1.3rem;
+}
+
+/* Blog Filter/Navigation */
+.blog-nav-items {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.sort-section {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.items-items {
+    padding: 1rem;
+}
+
+.all-item {
+    background: rgba(94, 102, 114, 0.1);
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.sort-by {
+    padding-right: 0.5rem;
+    color: rgb(97, 95, 95);
+
+}
+
+.sort-items {
+    background-color: #ffffff;
+    padding: 0.7rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.items-items:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.all-item:hover {
+    background: rgba(94, 102, 114, 0.5);
+    cursor: pointer;
+
+}
+
+.tag {
+    background-color: rgba(5, 5, 5, 0.5);
+    border-radius: 1rem;
+    color: #e6e0e0;
+    width: 7rem;
+    text-align: center;
+    padding: 0.6rem;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    top: 3.9rem;
+    left: 0.8rem;
+
+}
+
+.cards {
+    border-radius: 1rem;
+    width: 29rem;
+    height: 40rem;
+}
+
+
+
+.card-picture {
+    width: 29rem;
+    height: 20rem;
+    border-radius: 1rem;
+
+}
+
+.card-date,
+.card-text {
+    color: rgb(103, 98, 98);
+    font-size: 1.3rem;
+
+}
+
+.card-date {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+.card-profile {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #000000;
+    border-radius: 0.6rem;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 1rem;
+    margin-bottom: 0rem;
+}
+
+.section1 {
+    width: 20rem;
+}
+
+.section-title {
+    font-weight: 600;
+}
+
+.section-elements {
+    color: #ccc0c0;
+}
+
+.section-elements:hover {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.copyright {
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+.footer-icons {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.footer-icons:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.blog-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.summary-description {
+    display: grid;
+    grid-template-columns: 27% auto;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.first-column {
+    display: grid;
+    grid-template-rows: 50% auto;
+    gap: 1rem;
+    color: #ffffff;
+}
+
+.book-sec {
+    background-image: url('/public/hunter.jpg');
+    background-size: 100% 100%;
+    border-radius: 1rem;
+
+}
+
+.article-info {
+    background-image: url('/public/christian-lue-b4kKyX0BQvc-unsplash.jpg');
+    border-radius: 1rem;
+    background-size: 100% 100%;
+}
+
+.second-column {
+    background-image: url('/public/francesco-ungaro-tPFuMKEwie8-unsplash.jpg');
+    background-size: 100% 100%;
+    border-radius: 1rem;
+}
+
+.second-column-text {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+.book-sec-title,
+.book-sec-icon,
+.book-sec-topic,
+.book-sec-btn {
+    margin-left: 4%;
+}
+
+.book-sec-title {
+    font-size: 2rem;
+}
+
+.book-sec-topic {
+    font-size: 1.3rem;
+}
+
+.book-sec-icon {
+    background-color: rgba(60, 57, 57, 0.3);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.book-sec {
+    height: 100%;
+}
+
+.article-text{
+    font-size: 1rem; 
+    font-weight: 600;
+    margin-top: 30%;
+    margin-left: 4%;
+
+}
+
+.article-num{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-left: 4%;
+    margin-bottom: 0;
+
+}
